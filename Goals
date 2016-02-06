@@ -1,0 +1,24 @@
+Goals of the Project:
+---------------------
+
+Create an efficient automation framework to test Wikipedia .
+
+The framework should provide :
+
+* Define the testing process
+
+* Speed up the testing process,
+
+* Provide reliable issue detection,
+
+* Efficient root-cause analysis with minimum human intervention
+
+* Easy to maintain
+
+* Should be easy to manage and run
+
+* Automated test execution should be performed using junit
+
+* provide test report using Testng.
+
+* Integration with CI environment like Jenkins

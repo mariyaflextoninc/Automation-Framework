@@ -1,0 +1,47 @@
+Walking manually through the test cases:
+----------------------------------------
+
+Create a wiki account if you don't have one. 
+
+  1. Load the website 'wikipedia.org' and check if the default selected language in dropdown is English. 
+     - Load the website ' wikipedia.org'. 
+     - Verify the dropdown is present in the page. 
+     - Check if its default selected value is 'English'
+     
+  2.Check if search button in home page is working properly. 
+     - Verify the text area to search and the search button is present in the home page 
+     - Type any valid text (eg . 'Apple') inside the text area to search. 
+     - Click the search button 
+     - User is directed to a result page 
+     - Verify the title of the result page is same as the entered text. 
+     - Direct the user back to the  home page. 
+    
+3. Check if clicking the language link eg: 'English' takes the user to the main page. 
+     - Click link 'English' in the home page. 
+     - User is navigated to the main page. 
+     - Verify if the name of the tab in the main page is 'Main  Page'. 
+     
+4. Check for login and logout 
+     - Click the link login. 
+     - User is directed to the login page 
+     - Enter username and password 
+     - Click login button. 
+     - Verify user did sign in by checking the username is displayed at the top right of the page. 
+     - For logout, click the logout link at the top right of the page. 
+     - Verify logout by checking  the top right link message is 'Not logged in'. 
+     
+5. Add page to watchlist and remove page from watchlist.(Check this test case before logout) 
+     - Click link 'watchlist' at top right side 
+     - User is directed to the watchlist page.  
+     - From that take the no of pages in watch list , for that take the text content that displays the page count. 
+     - Go back to the main page 
+     - Click the 'star' which says 'add watchlist' or 'remove watchlist'. 
+     - If the page is already in the watchlist the star appears in blue color. 
+     - Star is white in color, the page is not yet added in the watchlist. 
+     - Clicking the blue star will remove the page from watchlist. 
+     - Clicking the white star will add the page to watchlist. 
+     - Click the link watchlist  
+     - Verify the text content which displays the page count 
+     - To verify, match the new page count  with the previous page count 
+     - Back to main page  then logout. 
+     

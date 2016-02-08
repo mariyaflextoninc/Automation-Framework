@@ -1,0 +1,26 @@
+Project Requirement:
+--------------------
+ 
+Ensure below functionality of AUT (Application Under Test) is working well, in Firefox, 
+Windows and MacOS.  
+
+Positive Test Scenarios where user should be able to: 
+-----------------------------------------------------
+
+ - Load the website 'wikipedia.org' and check if the default selected language in dropdown is English. 
+ - Check if search button in home page is working properly. 
+ - Check if clicking the language  link  eg: 'English' takes the user to the main page. 
+ - Check for login and logout  
+ - Add page to watchlist and remove page from watchlist. 
+
+Negative Test Scenarios where user should be able to: 
+-----------------------------------------------------
+
+- Login without password - App should be able to remind user that he can't login without a password.  
+- Login without userid - App should be able to remind user that he can't login without a userid  
+
+Framework Business Requirements: 
+--------------------------------
+
+- Generate accurate test result (Pass/Fail) report. 
+- Easy to maintain and expansible. 

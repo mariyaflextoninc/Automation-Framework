@@ -1,0 +1,31 @@
+Tools used to build the application:
+------------------------------------
+ 
+SUT (System Under Test) 
+
+Browsers:  
+SUT will need to work with different web browsers: Google, Firefox, IE, etc. 
+
+Selenium WebDriver: 
+The browsers will be driven by Selenium WebDriver. 
+
+Java: 
+The language chosen to use with Selenium is Java, but Selenium WebDriver supports also Python, Ruby, C#, etc. 
+
+JUnit:
+Because we use Java we can select TestNG or JUnit as execution frameworks.We are selecting JUnit in our case. 
+
+git:
+Once we have our test scripts, we can save them to our VCS (Version Control System) to manage different versions and to track changes. There are other version control systems such as SVN 
+
+Eclipse:
+We can use eclipse or inteliJ IDE for creating our selenium project. It is a collection of tools for development and testing. 
+
+Maven: 
+Project Management tool. Easily define dependencies. It allows us for instance to change the Selenium version. We can run commands, for example to start the test. We can define different profiles. For instance when we want to run critical tests, we can define some parameters specially for critical tests. 
+
+Jenkins: 
+After all the previous parts are working as expected, we can use Jenkins as CI, there are other CI tools. With Jenkins we can schedule tests under certain conditions, for instance when there are changes in the application under test, Jenkins can start a test to make sure there are no regressions. 
+
+Apache SureFire:
+Once the test has been run, a test results report will be generated for team members to view and take to take action accordingly. 

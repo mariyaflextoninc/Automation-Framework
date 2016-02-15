@@ -1,11 +1,21 @@
-Project Requirement:
+Project Requirements
 --------------------
- 
-Ensure below functionality of AUT (Application Under Test) is working well, in Firefox, 
-Windows and MacOS.  
+The functional and non functional requirements that the AUT(Application Under Test ) must meet are given below.
+The project should work well, in Firefox, Windows and MacOS.  
 
-Positive Test Scenarios where user should be able to: 
------------------------------------------------------
+Business Requirements: 
+--------------------------------
+
+- Find the tools required for the test automation framework.
+- Give a complete picture of functional flow in the system using UML diagram.
+- Explain how to manually walk through the positive and negative test cases.
+- Generate accurate test (Pass/Fail) report. 
+- Easy to maintain and expansible. 
+- Ensure the quality of the system.
+
+
+Positive Test Scenarios:
+-------------------------
 
  - Load the website 'wikipedia.org' and check if the default selected language in dropdown is English. 
  - Check if search button in home page is working properly. 
@@ -13,14 +23,12 @@ Positive Test Scenarios where user should be able to:
  - Check for login and logout  
  - Add page to watchlist and remove page from watchlist. 
 
-Negative Test Scenarios where user should be able to: 
------------------------------------------------------
+Negative Test Scenarios:
+------------------------
 
 - Login without password - App should be able to remind user that he can't login without a password.  
 - Login without userid - App should be able to remind user that he can't login without a userid  
 
-Framework Business Requirements: 
---------------------------------
 
-- Generate accurate test result (Pass/Fail) report. 
-- Easy to maintain and expansible. 
+
+

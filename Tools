@@ -27,4 +27,4 @@ Maven is also used to manage the dependencies. For example if you are using sele
 have to use some other version, then same can be managed easily by Maven.
 
 Apache SureFire:
-For generating the test report you can use Apache SureFire. I will describe how to use it in our project later.. 
+For generating the test report you can use Apache SureFire. I will describe how to use it in this project later.
